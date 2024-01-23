@@ -12,6 +12,9 @@ In this repository I reproduced Dream Diffusion paper in local ubuntu environmen
 
 
 
+File path | Description
+```
+
 /pretrains
 ┣ 📂 models
 ┃   ┗ 📜 config.yaml
@@ -51,6 +54,8 @@ In this repository I reproduced Dream Diffusion paper in local ubuntu environmen
 ┗  📜 dataset.py                (functions for loading datasets)
 ┗  📜 eval_metrics.py           (functions for evaluation metrics)
 ┗  📜 config.py                 (configurations for the main scripts)
+
+```
 
 
 
