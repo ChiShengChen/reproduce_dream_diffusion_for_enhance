@@ -79,3 +79,6 @@ https://github.com/bobergsatoko/reproduce-dream-diffusion/tree/main
 ## Some bugs I faced when I reproduce based on original code
 ### Package Version bug:
 The default torch-torchtext-torchmetrics versions need to compare like [here](https://pypi.org/project/torchtext/)https://pypi.org/project/torchtext/
+
+### Functional Bug: 
+The default function in 'gen_eval_eeg.py' can not get the config.
