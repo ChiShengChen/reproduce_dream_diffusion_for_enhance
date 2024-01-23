@@ -2,8 +2,11 @@
 ## [on-going]  
 In this repository I reproduced Dream Diffusion paper in local ubuntu environment, try to pre-trained EEG representation and use author checkpoints to generate images.  
 
-## paper:  https://arxiv.org/abs/2306.16934  
-## official code:  https://github.com/bbaaii/DreamDiffusion  
+### paper:  https://arxiv.org/abs/2306.16934  
+### official code:  https://github.com/bbaaii/DreamDiffusion  
+
+-[]123  
+-[x]fsfsdfsdfsd  
 
 
 Ref:  
