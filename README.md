@@ -5,8 +5,9 @@ In this repository I reproduced Dream Diffusion paper in local ubuntu environmen
 ### paper:  https://arxiv.org/abs/2306.16934  
 ### official code:  https://github.com/bbaaii/DreamDiffusion  
 
-[]123  
-[x]fsfsdfsdfsd  
+- [x] pretraining on EEG data
+- [ ] fineture the stable diffusion with pre-trained fMRI Encoder
+- [ ] Generating Images with Trained Checkpoints
 
 
 Ref:  
