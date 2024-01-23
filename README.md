@@ -7,8 +7,8 @@ In this repository I reproduced Dream Diffusion paper in local ubuntu environmen
 
 - [x] pretraining on EEG data
 - [ ] fineture the stable diffusion with pre-trained fMRI Encoder
+- [ ] Use author checkpoints to generate images
 - [ ] Generating Images with Trained Checkpoints
-
 
 
 
@@ -62,7 +62,7 @@ Must: v1-5-pruned.ckpt can be download from [stable-diffusion-v1-5](https://hugg
 
 Must: ImageNet_images can be download from [here](https://drive.google.com/file/d/1y7I9bG1zKYqBM94odcox_eQjnP9HGo9-/view)  
 
-The dataset is from https://github.com/perceivelab/eeg_visual_classification  
+The dataset get from https://github.com/perceivelab/eeg_visual_classification  
 data download: [here](https://studentiunict-my.sharepoint.com/personal/concetto_spampinato_unict_it/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fconcetto%5Fspampinato%5Funict%5Fit%2FDocuments%2Fsito%5FPeRCeiVe%2Fdatasets%2Feeg%5Fcvpr%5F2017&ga=1)  
 Must: block_splits_by_image_all.pth  
 Must: block_splits_by_image_single.pth   
@@ -73,6 +73,5 @@ Optional: eeg_signals_raw_with_mean_std.pth
 
 The eeg_xxx.pth looks like collected from [MOABB](https://github.com/NeuroTechX/moabb), to run the DreamDiffusion you can use 'eeg_5_95_std.pth' directly.
 
-Ref:  
 You can also find code to parse the eeg data here: https://github.com/bobergsatoko/reproduce-dream-diffusion/blob/main/Reproduce_DreamDiffusion.ipynb
 https://github.com/bobergsatoko/reproduce-dream-diffusion/tree/main
