@@ -71,7 +71,7 @@ Optional: eeg_14_70_std.pth
 Optional: eeg_55_95_std.pth   
 Optional: eeg_signals_raw_with_mean_std.pth 
 
-The eeg_xxx.pth looks like train from [MOABB](https://github.com/NeuroTechX/moabb), to run the DreamDiffusion you can use 'eeg_5_95_std.pth' directly.
+The eeg_xxx.pth looks like collected from [MOABB](https://github.com/NeuroTechX/moabb), to run the DreamDiffusion you can use 'eeg_5_95_std.pth' directly.
 
 Ref:  
 You can also find code to parse the eeg data here: https://github.com/bobergsatoko/reproduce-dream-diffusion/blob/main/Reproduce_DreamDiffusion.ipynb
