@@ -5,8 +5,8 @@ In this repository I reproduced Dream Diffusion paper in local ubuntu environmen
 ### paper:  https://arxiv.org/abs/2306.16934  
 ### official code:  https://github.com/bbaaii/DreamDiffusion  
 
--[]123  
--[x]fsfsdfsdfsd  
+[]123  
+[x]fsfsdfsdfsd  
 
 
 Ref:  
