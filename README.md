@@ -57,12 +57,16 @@ File path | Description
 
 ```
 ## Something need to download
-weight download:  
+
+EEG encoder pretrain data like collected from [MOABB](https://github.com/NeuroTechX/moabb),  
+but do not know which 400 subjects to collect.
+
+SD weight download:  
 Must: v1-5-pruned.ckpt can be download from [stable-diffusion-v1-5](https://huggingface.co/runwayml/stable-diffusion-v1-5/tree/main)
 
 Must: ImageNet_images can be download from [here](https://drive.google.com/file/d/1y7I9bG1zKYqBM94odcox_eQjnP9HGo9-/view)  
 
-The dataset get from https://github.com/perceivelab/eeg_visual_classification  
+The ImageNet-EEG dataset for fine-tune CLIP/directed on SD get from https://github.com/perceivelab/eeg_visual_classification  
 data download: [here](https://studentiunict-my.sharepoint.com/personal/concetto_spampinato_unict_it/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fconcetto%5Fspampinato%5Funict%5Fit%2FDocuments%2Fsito%5FPeRCeiVe%2Fdatasets%2Feeg%5Fcvpr%5F2017&ga=1)  
 Must: block_splits_by_image_all.pth  
 Must: block_splits_by_image_single.pth   
@@ -71,7 +75,7 @@ Optional: eeg_14_70_std.pth
 Optional: eeg_55_95_std.pth   
 Optional: eeg_signals_raw_with_mean_std.pth 
 
-The eeg_xxx.pth looks like collected from [MOABB](https://github.com/NeuroTechX/moabb), to run the DreamDiffusion you can use 'eeg_5_95_std.pth' directly.
+To run the DreamDiffusion you can use 'eeg_5_95_std.pth' directly.
 
 You can also find code to parse the eeg data here: https://github.com/bobergsatoko/reproduce-dream-diffusion/blob/main/Reproduce_DreamDiffusion.ipynb
 https://github.com/bobergsatoko/reproduce-dream-diffusion/tree/main
