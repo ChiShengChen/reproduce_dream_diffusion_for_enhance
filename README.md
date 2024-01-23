@@ -86,3 +86,8 @@ The default torch-torchtext-torchmetrics versions need to compare like [here](ht
 
 ### Functional Bug: 
 The default function in 'gen_eval_eeg.py' can not get the config.
+
+
+### Data Questions
+`Data for EEG representation pre-training. We have collected approximately 120,000 EEG data samples from over 400 subjects with channel ranges from 30 to 128 on the
+MOABB platform for the EEG pre-training.` `These data contain a wide variety of EEG data, including tasks such as looking at an object, motor imagery, and watching videos.` What actually the data contains?
