@@ -56,10 +56,13 @@ File path | Description
 ┗  📜 config.py                 (configurations for the main scripts)
 
 ```
-
+### Something need to download
 weight download:  
-v1-5-pruned.ckpt  
+v1-5-pruned.ckpt can be download from [stable-diffusion-v1-5](https://huggingface.co/runwayml/stable-diffusion-v1-5/tree/main)
 
+ImageNet_images can be download from [here](https://drive.google.com/file/d/1y7I9bG1zKYqBM94odcox_eQjnP9HGo9-/view)  
+
+The dataset is from https://github.com/perceivelab/eeg_visual_classification  
 data download: [here](https://studentiunict-my.sharepoint.com/personal/concetto_spampinato_unict_it/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fconcetto%5Fspampinato%5Funict%5Fit%2FDocuments%2Fsito%5FPeRCeiVe%2Fdatasets%2Feeg%5Fcvpr%5F2017&ga=1)  
 block_splits_by_image_all.pth  
 block_splits_by_image_single.pth   
