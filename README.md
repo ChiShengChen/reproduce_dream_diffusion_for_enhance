@@ -57,7 +57,16 @@ File path | Description
 
 ```
 
+weight download:
+v1-5-pruned.ckpt
 
+data download: [here](https://studentiunict-my.sharepoint.com/personal/concetto_spampinato_unict_it/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fconcetto%5Fspampinato%5Funict%5Fit%2FDocuments%2Fsito%5FPeRCeiVe%2Fdatasets%2Feeg%5Fcvpr%5F2017&ga=1)
+block_splits_by_image_all.pth
+block_splits_by_image_single.pth 
+eeg_5_95_std.pth  
+eeg_14_70_std.pth  
+eeg_55_95_std.pth  
+eeg_signals_raw_with_mean_std.pth
 
 Ref:  
 You can also find code to parse the eeg data here: https://github.com/bobergsatoko/reproduce-dream-diffusion/blob/main/Reproduce_DreamDiffusion.ipynb
