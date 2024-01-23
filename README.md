@@ -75,3 +75,7 @@ The eeg_xxx.pth looks like collected from [MOABB](https://github.com/NeuroTechX/
 
 You can also find code to parse the eeg data here: https://github.com/bobergsatoko/reproduce-dream-diffusion/blob/main/Reproduce_DreamDiffusion.ipynb
 https://github.com/bobergsatoko/reproduce-dream-diffusion/tree/main
+
+## Some bugs I faced when I reproduce based on original code
+### Package Version bug:
+The default torch-torchtext-torchmetrics versions need to compare like [here](https://pypi.org/project/torchtext/)https://pypi.org/project/torchtext/
